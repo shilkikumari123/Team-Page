@@ -1,0 +1,157 @@
+body{
+    padding:0px;
+    margin:0px;
+    background:linear-gradient(#94B49F, white);
+}
+h1{
+    color:white;
+    font-size:110px;
+    position:absolute;
+    top:140px;
+    left:100px;
+    filter:drop-shadow(1px 2px 4px #070A52);
+}
+.sen1{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    
+}
+.mess{
+    display:flex;
+    gap:2px;
+}
+.btn:hover{
+    font-weight:bold;
+    color:white;
+}
+button{
+    width:180px;
+    height:30px;
+    background-color:greenyellow;
+    border-radius:10px;
+    border:none;
+    
+}
+.s{
+    padding:20px;
+}
+button:hover{
+    background-color:green;
+}
+img{
+    filter:drop-shadow(20px 20px 40px #2B2A4C);
+}
+.grid{
+    
+    height:120px;
+    width:300px;
+    background-color:#28B5B5;
+    align-items:center;
+    justify-content:center;
+    border-radius:20px;
+    margin:20px;
+    filter:drop-shadow(5px 5px 10px #FFE569);
+}
+.grid:hover{
+    background:linear-gradient(green,black);
+    filter:drop-shadow(5px 5px 10px black);
+    color:white;
+}
+.sen2{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+   
+}
+.b{
+    
+    font-weight:bold;
+    font-size:40px;
+    
+    text-align:center;
+}
+.sen3{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    
+}
+.bold:hover{
+    font-weight:bold;
+}
+h2{
+    font-size:60px;
+    
+    text-align:center;
+    color:#865439;
+    font-weight:bold;
+    filter:drop-shadow(1px 1px 2px black);
+}
+.mentors{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:100px;
+    flex-wrap:wrap;
+}
+.mentors2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding-bottom:60px;
+    gap:120px;}
+.a{
+    font-size:190px;
+}
+.a:hover{
+    filter:drop-shadow(4px 4px 8px #774360);
+}
+.info{
+    text-align:center;
+    font-weight:bold;
+    align-items:center;
+    justify-content:center;
+    
+}
+@media(max-width:600px)
+{
+    h1{
+        font-size:30px;
+        position:absolute;
+        top:10px;
+        left:20px;
+    }
+    .grid{
+        height:80px;
+        width:150px;
+        gap:5px;
+        padding-top:30px;
+        
+    }
+    .b{
+        font-size:20px;
+        font-weight:bold;
+    }
+    h2{
+        font-size:42px;
+    }
+    .a{
+        font-size:80px;
+        padding:50px;
+    }
+    .mentors{
+        gap:60px;
+    }
+    .mentors2{
+        gap:40px;
+        padding:50px;
+    }
+}
